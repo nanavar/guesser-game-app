@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<br>
+<h2>EDIT PROFILE</h2>
+<br>
+<form method="post">
+    <p>
+        <strong>Your name: </strong>
+        <input type="text" name="name" value="{{ user.name }}">
+    </p>
+    <p>
+        <strong>Your email: </strong>
+        <input type="email" name="email" vlaue="{{ user.email }}">
+    </p>
+
+        <div class="d-grid gap-3 col-6 mx-auto mt-2">
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+</form>
+{% endblock content %}

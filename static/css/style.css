@@ -1,0 +1,13 @@
+body {
+    font-family: 'Gaegu', cursive;
+    font-size: 22px;
+    background-image: url("/img/bg.jpg")
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Pangolin', cursive;
+    font-size: 55px;
+    font-weight: bold;
+}
