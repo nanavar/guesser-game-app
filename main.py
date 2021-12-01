@@ -153,4 +153,4 @@ def user_details(user_id):
 
 
 if __name__ == '__main__':
-    app.run(use_reloader=True, debug=True)  # if you use the port parameter, delete it before deploying to Heroku
+    app.run(use_reloader=True, debug=True, port=5003)  # if you use the port parameter, delete it before deploying to Heroku
