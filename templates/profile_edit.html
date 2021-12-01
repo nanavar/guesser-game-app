@@ -6,12 +6,19 @@
 <br>
 <form method="post">
     <p>
-        <strong>Your name: </strong>
+        <label>Your name: </label>
+        <br>
         <input type="text" name="name" value="{{ user.name }}">
     </p>
     <p>
-        <strong>Your email: </strong>
+        <label>Your email: </label>
+        <br>
         <input type="email" name="email" value="{{ user.email }}">
+    </p>
+    <p>
+        <label>Your password: </label>
+        <br>
+        <input type="password" name="password" value="{{ user.password }}">
     </p>
 
         <div class="d-grid gap-3 col-6 mx-auto mt-2">

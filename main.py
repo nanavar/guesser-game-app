@@ -108,9 +108,11 @@ def profile_edit():
     elif request.method == "POST":
         name = request.form.get("name")
         email = request.form.get("email")
+        password = request.form.get("password")
 
         user.name = name
         user.email = email
+        user.password = password
 
         db.session.add(user)
         db.session.commit()
